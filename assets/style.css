@@ -83,14 +83,14 @@
   
   
   .move3 {
-    animation: 3.5s 1 forwards movement2;
+    animation: 3.5s 1 forwards movement3;
     transition: transform ease-in-out;
     transition-delay: 7s;
   }
   
 
   .move4 {
-    animation: 4.5s 1 forwards movement2;
+    animation: 4.5s 1 forwards movement4;
     transition: transform ease-in-out;
     transition-delay: 9s;
   }
@@ -99,6 +99,34 @@
     0% {
       opacity: 0;
       transform: translateY(80px);
+    }
+    80% {
+      opacity: 33%;
+    }
+    100% {
+      opacity: 100%;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes movement3 {
+    0% {
+      opacity: 0;
+      transform: translateY(120px);
+    }
+    80% {
+      opacity: 33%;
+    }
+    100% {
+      opacity: 100%;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes movement4 {
+    0% {
+      opacity: 0;
+      transform: translateY(160px);
     }
     80% {
       opacity: 33%;

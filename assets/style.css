@@ -81,6 +81,20 @@
     transition-delay: 5s;
   }
   
+  
+  .move3 {
+    animation: 3.5s 1 forwards movement2;
+    transition: transform ease-in-out;
+    transition-delay: 7s;
+  }
+  
+
+  .move4 {
+    animation: 4.5s 1 forwards movement2;
+    transition: transform ease-in-out;
+    transition-delay: 9s;
+  }
+
   @keyframes movement2 {
     0% {
       opacity: 0;
@@ -93,22 +107,6 @@
       opacity: 100%;
       transform: translateY(0);
     }
-  }
-  
-  .move3 {
-    animation: 2.5s 1 forwards movement2;
-    transition: transform ease-in-out;
-    transition-delay: 6s;
-  }
-  
- 
-  
-
-
-  .move4 {
-    animation: 2.5s 1 forwards movement2;
-    transition: ease-in-out;
-    transition-delay: 7s;
   }
   
   @keyframes movement {
@@ -511,13 +509,7 @@
     line-height: 1.5rem;
   }
   
-  footer h3 {
-    font-family: Shrikhand;
-    font-size: 50px;
-    font-weight: 400;
-    padding-left: 30px;
-    padding-top: 30px;
-  }
+
   
   .png {
     filter: invert(100%);

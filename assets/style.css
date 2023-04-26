@@ -78,7 +78,7 @@
   .move2 {
     animation: 2.5s 1 forwards movement2;
     transition: transform ease-in-out;
-    transition-delay: 4s;
+    transition-delay: 5s;
   }
   
   @keyframes movement2 {
@@ -96,25 +96,32 @@
   }
   
   .move3 {
-    animation: 2.5s 1 forwards movement1;
+    animation: 2.5s 1 forwards movement2;
     transition: transform ease-in-out;
-    transition-delay: 4s;
+    transition-delay: 6s;
   }
   
-  @keyframes movement3 {
+ 
+  
+
+
+  .move4 {
+    animation: 2.5s 1 forwards movement2;
+    transition: ease-in-out;
+    transition-delay: 7s;
+  }
+  
+  @keyframes movement {
     0% {
-      opacity: 0;
       transform: translateY(80px);
     }
-    80% {
-      opacity: 3%;
-    }
+  
     100% {
-      opacity: 100%;
       transform: translateY(0);
     }
   }
   
+
   .fade {
     height: 100%;
     background-color: #fff;
@@ -797,22 +804,7 @@
     }
   }
   
-  .move4 {
-    animation: 2.5s 1 forwards movement;
-    transition: ease-in-out;
-    transition-delay: 2s;
-  }
-  
-  @keyframes movement {
-    0% {
-      transform: translateY(80px);
-    }
-  
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
+
   /* .....TABLETTE ..................................... */
   @media (min-width: 768px) {
     body {
@@ -1009,7 +1001,7 @@
       flex-direction: row;
       justify-content: space-evenly;
       margin-top: 30px;
-      font-size: 0.7rem;
+      
     }
   
     .footer-txt :nth-child(3) {
@@ -1182,12 +1174,12 @@
     }
   
     .footer-txt {
-      width: 40%;
+      width: 50%;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       margin-top: 35px;
-      font-size: 0.7rem;
+      
     }
   
     .footer-txt :nth-child(3) {

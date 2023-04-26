@@ -816,7 +816,7 @@
   
   @keyframes movement {
     0% {
-      transition: translateY(80px);
+      transform: translateY(80px);
     }
   
     100% {

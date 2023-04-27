@@ -76,49 +76,36 @@
   }
   
   .move2 {
-    animation: 2.5s 1 forwards movement2;
+    animation: 3s  forwards 1  movement2;
     transition: transform ease-in-out;
-    transition-delay: 5s;
   }
   
   
   .move3 {
-    animation: 3.5s 1 forwards movement3;
+    animation: 6s  forwards 1 movement3;
     transition: transform ease-in-out;
-    transition-delay: 7s;
   }
   
 
   .move4 {
-    animation: 4.5s 1 forwards movement4;
+    animation:8s forwards  1 movement4;
     transition: transform ease-in-out;
-    transition-delay: 9s;
   }
 
   @keyframes movement2 {
     0% {
-      opacity: 0;
-      transform: translateY(80px);
-    }
-    80% {
-      opacity: 33%;
+      transform: translateY(480px);
     }
     100% {
-      opacity: 100%;
       transform: translateY(0);
     }
   }
 
   @keyframes movement3 {
     0% {
-      opacity: 0;
-      transform: translateY(120px);
-    }
-    80% {
-      opacity: 33%;
+      transform: translateY(620px);
     }
     100% {
-      opacity: 100%;
       transform: translateY(0);
     }
   }
@@ -126,10 +113,7 @@
   @keyframes movement4 {
     0% {
       opacity: 0;
-      transform: translateY(160px);
-    }
-    80% {
-      opacity: 33%;
+      transform: translateY(860px);
     }
     100% {
       opacity: 100%;
